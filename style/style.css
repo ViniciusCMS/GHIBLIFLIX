@@ -1,0 +1,43 @@
+/*Variaveis de cor*/
+:root{
+    --cor1:#a6d2df;
+    --cor2:#312456;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: var(--cor1);
+    font-family: 'Times New Roman', Times, serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left: 10px;
+    color: var(--cor2);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 10px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+/*PARANDO NA PARTE 4*/
+
