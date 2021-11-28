@@ -94,5 +94,33 @@ header nav a:hover{
 }
 
 .filmePrincipal .container{
-    width: 700px;
+    width: 60%;
+}
+
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block;
+}
+
+.carrosel{
+    margin-top: 10px;
+}
+
+.filmes{
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.series{
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.documentario{
+    color: black;
+    margin-left: 10px;
+    margin-top: 5px;
 }
